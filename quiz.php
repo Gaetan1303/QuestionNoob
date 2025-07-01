@@ -1,3 +1,4 @@
+
 <?php
 
 function chargerQuestions() {
@@ -74,9 +75,9 @@ function jouerQuiz() {
     echo "Pourcentage de bonne réponse : " . round($pourcentage, 2) . "%\n\n";
 
     if ($pourcentage > 50) {
-        echo "Bien joué tu as gagné des millions ! 💰\n";
+        echo "Bien joué tu as gagné un Noob ! 💰\n";
     } else {
-        echo "Dommage... Tu reviendras plus fort ! 😢\n";
+        echo "Dommage... Tu reviendras plus fort et plus Noob ! 😢\n";
     }
 
     // Rejouer ?
